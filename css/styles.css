@@ -1683,8 +1683,14 @@ img {
 
 .mobile-contacts-item:first-child {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 24px;
     line-height: 1.11;
+}
+
+@media only screen and (min-width: 428px) and (max-width: 767px) {
+    .mobile-contacts-item:first-child {
+        font-size: 36px;
+    }
 }
 
 .mobile-contacts-link {
