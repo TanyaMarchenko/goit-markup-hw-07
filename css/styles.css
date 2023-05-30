@@ -1330,8 +1330,8 @@ img {
 
 .modal {
     position: absolute;
-    top: calc(25%);
-    left: calc(25%);
+    top: calc(50%);
+    left: calc(50%);
     width: 288px;
     min-height: 584px;
     border-radius: 4px;
@@ -1353,8 +1353,6 @@ img {
 
 @media only screen and (min-width: 768px) {
     .modal {
-        top: calc(50%);
-        left: calc(50%);
         width: 408px;
         padding: 24px;
         padding-top: 72px;
